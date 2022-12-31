@@ -1,0 +1,26 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+/* .col-md-6{
+    position: relative;
+    right: 30%;
+    left: 40%;
+    padding-bottom: 100px;
+} */
+
+.review{
+    cursor: pointer;
+}
+
+.hov:hover{
+    font-size: larger;
+}
+
+@media(min-width: 768px) {
+    .News-input{
+        width: 50%;
+    }
+}
